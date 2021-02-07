@@ -1,0 +1,17 @@
+name: multistep
+
+conda_env: conda.yaml
+
+entry_points:
+
+  download:
+    command: "python download.py"
+
+  process:
+    command: "python process.py "
+
+  inference:
+    command: "python inference.py "
+
+  main:
+    command: "python main.py "
